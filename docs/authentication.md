@@ -2,9 +2,9 @@
 
 ## Login
 
-The login function accepts a username and password.
+The login function accepts an email, password, and a remember-me flag.
 
 ### Usage
 
 ```js
-login(username, password)
+login(email, password, rememberMe)
